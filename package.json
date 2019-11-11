@@ -1,0 +1,25 @@
+{
+  "name": "erickillian.github.io",
+  "version": "1.0.0",
+  "description": "\"# erickillian.github.io\"",
+  "main": "server.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "confetti-js": "0.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickillian/erickillian.github.io.git"
+  },
+  "author": "Eric Killian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erickillian/erickillian.github.io/issues"
+  },
+  "homepage": "https://github.com/erickillian/erickillian.github.io#readme"
+}
