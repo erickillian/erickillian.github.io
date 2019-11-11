@@ -8,10 +8,11 @@
     <title>My Website!</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
         integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
         crossorigin="anonymous"></script>
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
 </head>
 
 <body>
@@ -23,15 +24,53 @@
         <h1 class="display-4"></h1>
         <p class="lead">This is my Webpage!</p>
         <hr class="my-4">
-        <p>
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse"
-                aria-expanded="false" aria-controls="collapse">
-                Background
-            </button>
-        </p>
-        <div class="collapse" id="collapse">
-            <div class="card card-body">
-                This is where I'll put more of my background
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingAbout">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#aboutme"
+                            aria-expanded="false" aria-controls="aboutme">
+                            About Me
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="aboutme" class="collapse show" aria-labelledby="headingAbout" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Hello! My name is Eric Killian and I am a first year Electrical and Computer Engineering Student
+                        at The Ohio State University.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingBackground">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#background" aria-expanded="false" aria-controls="background">
+                            Background
+                        </button>
+                    </h2>
+                </div>
+                <div id="background" class="collapse" aria-labelledby="headingBackground" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Info about my background
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#career" aria-expanded="false" aria-controls="career">
+                            Career
+                        </button>
+                    </h2>
+                </div>
+                <div id="career" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Info about my career will go here
+                    </div>
+                </div>
             </div>
         </div>
     </div>
