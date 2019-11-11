@@ -24,18 +24,17 @@
         <h1 class="display-4"></h1>
         <p class="lead">This is my Webpage!</p>
         <hr class="my-4">
-        <div class="accordion" id="accordionExample">
+        <div class="accordion" id="accordian">
             <div class="card">
                 <div class="card-header" id="headingAbout">
                     <h2 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#aboutme"
-                            aria-expanded="false" aria-controls="aboutme">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#about"
+                            aria-expanded="false" aria-controls="about">
                             About Me
                         </button>
                     </h2>
                 </div>
-
-                <div id="aboutme" class="collapse show" aria-labelledby="headingAbout" data-parent="#accordionExample">
+                <div id="about" class="collapse" aria-labelledby="headingAbout" data-parent="#accordian">
                     <div class="card-body">
                         Hello! My name is Eric Killian and I am a first year Electrical and Computer Engineering Student
                         at The Ohio State University.
@@ -51,7 +50,7 @@
                         </button>
                     </h2>
                 </div>
-                <div id="background" class="collapse" aria-labelledby="headingBackground" data-parent="#accordionExample">
+                <div id="background" class="collapse" aria-labelledby="headingBackground" data-parent="#accordian">
                     <div class="card-body">
                         Info about my background
                     </div>
@@ -61,12 +60,12 @@
                 <div class="card-header" id="headingThree">
                     <h2 class="mb-0">
                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                            data-target="#career" aria-expanded="false" aria-controls="career">
+                            data-target="#career" aria-expanded="true" aria-controls="career">
                             Career
                         </button>
                     </h2>
                 </div>
-                <div id="career" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div id="career" class="collapse" aria-labelledby="headingThree" data-parent="#accordian">
                     <div class="card-body">
                         Info about my career will go here
                     </div>
