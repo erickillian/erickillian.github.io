@@ -1,1 +1,2 @@
-## Just a personal basic portfolio webpage.
+## Just a basic personal portfolio webpage / blog
+[View Page](https://erickillian.github.io/)
