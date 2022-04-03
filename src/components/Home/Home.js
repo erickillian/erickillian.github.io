@@ -4,6 +4,10 @@ import homeLogo from "../../assets/images/me/profile_picture3.png";
 import Home2 from "./Home2";
 import Type from "./Type";
 
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+// import 'bootstrap-icons/font/bootstrap-icons.css'
+
 
 function Home() {
     return (
@@ -28,12 +32,6 @@ function Home() {
                                     <h1>Eric Killian</h1>
                                     <h3><small className="text-muted">Computer Engineer</small></h3>
                                     <hr />
-                                    <p className="lead">
-                                        <a href="./resume_erickillian.pdf"
-                                            className="btn btn-lg fw-bold bg-white bi-file-earmark-person">
-                                            Resume
-                                        </a>
-                                    </p>
                                 </div>
                             </div>
                         </div>
