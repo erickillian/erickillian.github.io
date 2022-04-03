@@ -4,7 +4,9 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap-icons/font/bootstrap-icons.css'
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomePage from './pages/HomePage.jsx'
+import HomePage from './pages/HomePage.jsx';
+import ResumePage from './pages/ResumePage.jsx';
+import NavBar from './components/NavBar.jsx'
 
 function App() {
     return (
@@ -14,6 +16,7 @@ function App() {
             <Router>
                 <Routes>
                     <Route exact path='/' element={<HomePage />} />
+                    <Route exact path='/resume' element={<ResumePage />} />
                     {/* <Route path='/about' component={About} />
                     <Route path='/service' component={Service} />
                     <Route path='/product' component={Product} />
