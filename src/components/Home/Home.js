@@ -14,7 +14,7 @@ function Home() {
         <section>
             <div className="d-flex text-center intro-bit">
                 <video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
-                    <source src={require('../../assets/videos/background4.mp4')} type="video/mp4" />
+                    <source src={require('../../assets/videos/background7.mp4')} type="video/mp4" />
                 </video>
                 <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column overlay-content">
                     <header className="mb-auto">

@@ -1,12 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import leaf from "../../assets/images/projects/leaf.png";
-import emotion from "../../assets/images/projects/emotion.jpeg";
-import editor from "../../assets/images/projects/codeEditor.png";
-import chatify from "../../assets/images/projects/chatify.png";
-import suicide from "../../assets/images/projects/suicide.png";
-import bitsOfCode from "../../assets/images/projects/blog.png";
+import pong from "../../assets/images/projects/converge-pong.png";
 
 function Projects() {
   return (
@@ -21,7 +16,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={ }
+              imgPath={pong}
               isBlog={false}
               title="Converge Pong"
               description="App that allows employees of Converge Technologies (local start up) to compare and record Ping Pong scores. Uses an ELO point scoring system"
