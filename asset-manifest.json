@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/erickillian.github.io/static/css/main.b7d25862.css",
-    "main.js": "/erickillian.github.io/static/js/main.014e8e74.js",
-    "static/js/787.bbe01249.chunk.js": "/erickillian.github.io/static/js/787.bbe01249.chunk.js",
-    "static/media/background4.mp4": "/erickillian.github.io/static/media/background4.623f34f0257c7baa71c4.mp4",
-    "static/media/profile_picture3.png": "/erickillian.github.io/static/media/profile_picture3.0f8e70cb9ec69e0bc9ee.png",
-    "static/media/codeEditor.png": "/erickillian.github.io/static/media/codeEditor.ba9458794dca1c746ef2.png",
-    "static/media/blog.png": "/erickillian.github.io/static/media/blog.52102140f369ea233010.png",
-    "static/media/chatify.png": "/erickillian.github.io/static/media/chatify.9373eddae1a258056c35.png",
-    "static/media/leaf.png": "/erickillian.github.io/static/media/leaf.4c15d6eb3fc75cfef85b.png",
-    "static/media/about.png": "/erickillian.github.io/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/suicide.png": "/erickillian.github.io/static/media/suicide.b72f1f9ffeb4775a7803.png",
-    "static/media/Soumyajit_Behera-BIT_MESRA.pdf": "/erickillian.github.io/static/media/Soumyajit_Behera-BIT_MESRA.53cbdad696442b0642b9.pdf",
-    "static/media/emotion.jpeg": "/erickillian.github.io/static/media/emotion.e92e314a236f65bb89af.jpeg",
-    "static/media/pre.svg": "/erickillian.github.io/static/media/pre.d1e5f41db051f75e1160.svg",
-    "index.html": "/erickillian.github.io/index.html",
-    "main.b7d25862.css.map": "/erickillian.github.io/static/css/main.b7d25862.css.map",
-    "main.014e8e74.js.map": "/erickillian.github.io/static/js/main.014e8e74.js.map",
-    "787.bbe01249.chunk.js.map": "/erickillian.github.io/static/js/787.bbe01249.chunk.js.map"
+    "main.css": "./static/css/main.6cfb48f3.css",
+    "main.js": "./static/js/main.db968a3c.js",
+    "static/js/787.bbe01249.chunk.js": "./static/js/787.bbe01249.chunk.js",
+    "static/media/background4.mp4": "./static/media/background4.623f34f0257c7baa71c4.mp4",
+    "static/media/profile_picture3.png": "./static/media/profile_picture3.0f8e70cb9ec69e0bc9ee.png",
+    "static/media/codeEditor.png": "./static/media/codeEditor.ba9458794dca1c746ef2.png",
+    "static/media/blog.png": "./static/media/blog.52102140f369ea233010.png",
+    "static/media/chatify.png": "./static/media/chatify.9373eddae1a258056c35.png",
+    "static/media/leaf.png": "./static/media/leaf.4c15d6eb3fc75cfef85b.png",
+    "static/media/about.png": "./static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/suicide.png": "./static/media/suicide.b72f1f9ffeb4775a7803.png",
+    "static/media/Soumyajit_Behera-BIT_MESRA.pdf": "./static/media/Soumyajit_Behera-BIT_MESRA.53cbdad696442b0642b9.pdf",
+    "static/media/emotion.jpeg": "./static/media/emotion.e92e314a236f65bb89af.jpeg",
+    "static/media/pre.svg": "./static/media/pre.d1e5f41db051f75e1160.svg",
+    "index.html": "./index.html",
+    "main.6cfb48f3.css.map": "./static/css/main.6cfb48f3.css.map",
+    "main.db968a3c.js.map": "./static/js/main.db968a3c.js.map",
+    "787.bbe01249.chunk.js.map": "./static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7d25862.css",
-    "static/js/main.014e8e74.js"
+    "static/css/main.6cfb48f3.css",
+    "static/js/main.db968a3c.js"
   ]
 }
