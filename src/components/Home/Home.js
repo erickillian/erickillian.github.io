@@ -32,6 +32,7 @@ function Home() {
                                     <h1>Eric Killian</h1>
                                     <h3><small className="text-muted">Computer Engineer</small></h3>
                                     <hr />
+                                    <Type />
                                 </div>
                             </div>
                         </div>

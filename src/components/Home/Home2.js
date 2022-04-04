@@ -19,27 +19,26 @@ function Home2() {
               LET ME <span className="important"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              My name is Eric Killian
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="important"> C++, Javascript and Python. </b>
+                <b className="important"> C and Python. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's include &nbsp;
               <i>
-                <b className="important">Web Technologies and Products </b> and
+                <b className="important">Embedded Systems </b> and
                 also in areas related to{" "}
                 <b className="important">
-                  Deep Learning and Natural Launguage Processing.
+                  Intelligent Robotics
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="important">Node.js</b> and
+              with <b className="important">Web Development</b> and
               <i>
                 <b className="important">
                   {" "}
@@ -48,7 +47,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="important"> React.js and Next.js</b>
+                <b className="important"> React.js</b>
               </i>
             </p>
           </Col>
@@ -61,7 +60,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>SOCIAL MEDIA</h1>
             <p>
               Feel free to <span className="important">connect </span>with me
             </p>
