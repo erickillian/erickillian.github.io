@@ -1,11 +1,7 @@
 html {
-    --section-background-color: linear-gradient(to bottom left,
-            rgba(17, 16, 16, 0.582),
-            rgba(12, 8, 24, 0.904));
+    --section-background-color: #292929;
 
-    --image-gradient: linear-gradient(to bottom left,
-            rgba(17, 16, 16, 0.678),
-            rgba(12, 10, 22, 0.863));
+    --image-gradient: #292929;
 
     --imp-text-color: #70bdf0;
 }
@@ -16,6 +12,10 @@ body {
 
 .important {
     color: var(--imp-text-color) !important;
+}
+
+h1 {
+    color: white !important;
 }
 
 button:focus {
@@ -190,7 +190,7 @@ h1 {
     .navbar {
         padding: 1rem 2rem !important;
         font-size: 1.4rem !important;
-        background-color: rgb(29, 29, 29) !important;
+        background-color: #242424cc !important;
     }
 
     .navbar-nav .nav-item a::after {
@@ -316,7 +316,8 @@ h1 {
 }
 
 .home-header {
-    width: 50vh !important;
+    overflow: hidden;
+    width: 100vw !important;
 }
 
 .home-logo {
@@ -324,7 +325,7 @@ h1 {
 }
 
 .home-image {
-    width: 50%;
+    width: 400px;
 }
 
 .heading {
@@ -375,6 +376,11 @@ h1 {
         padding-top: 10em !important;
         padding-bottom: 10em !important;
     }
+}
+
+.biography_brief {
+    min-width: 400px;
+    min-height: 200px;
 }
 
 .home-about-section {

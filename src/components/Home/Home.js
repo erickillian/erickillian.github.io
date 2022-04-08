@@ -14,18 +14,18 @@ function Home() {
         <section>
             <div className="d-flex text-center intro-bit">
                 <video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
-                    <source src={require('../../assets/videos/background7.mp4')} type="video/mp4" />
+                    <source src={require('../../assets/videos/background4.mp4')} />
                 </video>
-                <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column overlay-content">
+                <div className="cover-container d-flex mx-auto flex-column overlay-content home-header">
                     <header className="mb-auto">
                         <h1></h1>
                     </header>
                     <main className="black_overlay px-3">
-                        <div className="container d-flex">
+                        <div className="container">
                             <div className="row align-items-center">
                                 <div className="col">
                                     <picture>
-                                        <img src={require('../../assets/images/me/profile_picture3.png')} className="img-fluid" />
+                                        <img src={require('../../assets/images/me/profile_picture3.png')} className="home-image" />
                                     </picture>
                                 </div>
                                 <div className="col biography_brief">
