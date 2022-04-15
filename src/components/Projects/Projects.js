@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import pong from "../../assets/images/projects/converge-pong.png";
+import portfolio_website from "../../assets/images/projects/website.png";
 
 function Projects() {
   return (
@@ -21,6 +22,15 @@ function Projects() {
               title="Converge Pong"
               description="App that allows employees of Converge Technologies (local start up) to compare and record Ping Pong scores. Uses an ELO point scoring system"
               link="https://github.com/erickillian/converge-ping-pong"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio_website}
+              isBlog={false}
+              title="Portfolio Website"
+              description="Portfolio Website that uses React.js"
+              link="https://github.com/erickillian/erickillian.github.io"
             />
           </Col>
         </Row>

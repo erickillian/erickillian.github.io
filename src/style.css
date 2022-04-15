@@ -325,7 +325,8 @@ h1 {
 }
 
 .home-image {
-    width: 400px;
+    width: 70vw;
+    max-width: 400px;
 }
 
 .heading {
@@ -379,8 +380,8 @@ h1 {
 }
 
 .biography_brief {
-    min-width: 400px;
-    min-height: 200px;
+    width: 600px;
+    height: 200px;
 }
 
 .home-about-section {
