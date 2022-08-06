@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.0aeb643d.css",
-    "main.js": "./static/js/main.6e194367.js",
+    "main.css": "./static/css/main.c3564292.css",
+    "main.js": "./static/js/main.3028aa9e.js",
     "static/js/787.bbe01249.chunk.js": "./static/js/787.bbe01249.chunk.js",
     "static/media/background14.mp4": "./static/media/background14.dc2ae7d23a0e94f1cc85.mp4",
     "static/media/website.png": "./static/media/website.338789333522202fb0f9.png",
     "static/media/profile_picture3.png": "./static/media/profile_picture3.0f8e70cb9ec69e0bc9ee.png",
+    "static/media/wordle.png": "./static/media/wordle.4d7a7511630ab247732a.png",
     "static/media/about.png": "./static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/converge-pong.png": "./static/media/converge-pong.2ca9686def0ab97aec39.png",
     "index.html": "./index.html",
     "static/media/pre2.svg": "./static/media/pre2.cdda6d6d193bf0ff6ff4.svg",
-    "main.0aeb643d.css.map": "./static/css/main.0aeb643d.css.map",
-    "main.6e194367.js.map": "./static/js/main.6e194367.js.map",
+    "main.c3564292.css.map": "./static/css/main.c3564292.css.map",
+    "main.3028aa9e.js.map": "./static/js/main.3028aa9e.js.map",
     "787.bbe01249.chunk.js.map": "./static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0aeb643d.css",
-    "static/js/main.6e194367.js"
+    "static/css/main.c3564292.css",
+    "static/js/main.3028aa9e.js"
   ]
 }
