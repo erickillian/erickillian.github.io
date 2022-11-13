@@ -16,7 +16,7 @@ function Home() {
             <div className="d-flex text-center intro-bit">
 
                 <video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
-                    <source src={require('../../assets/videos/background14.mp4')} />
+                    <source src={require('../../assets/videos/background7.mp4')} />
                 </video>
 
                 <div className="cover-container d-flex mx-auto flex-column overlay-content home-header">
