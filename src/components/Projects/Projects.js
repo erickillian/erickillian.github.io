@@ -4,6 +4,12 @@ import ProjectCard from "./ProjectCards";
 import pong from "../../assets/images/projects/converge-pong.png";
 import portfolio_website from "../../assets/images/projects/website.png";
 import convergle from "../../assets/images/projects/wordle.png";
+import aev from "../../assets/images/projects/AEV.png";
+import capstone_image from "../../assets/images/projects/c3_image.png"
+
+
+import capstone_documentation from "../../assets/docs/FINAL Design Report - Team 3.pdf"
+import capstone_video from "../../assets/videos/c3_demo.mp4"
 
 function Projects() {
     return (
@@ -36,11 +42,23 @@ function Projects() {
                     </Col>
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={portfolio_website}
+                            imgPath={capstone_image}
                             isBlog={false}
-                            title="Portfolio Website"
-                            description="Portfolio Website that uses React.js"
-                            link="https://github.com/erickillian/erickillian.github.io"
+                            title="Cleaver Cleaning Container (C^3)"
+                            description="Advanced smart eletronic cleaning dispenser.  Senior capstone project at Ohio State University"
+                            link={capstone_documentation}
+                            video={capstone_video}
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={aev}
+                            isBlog={false}
+                            title="AEV (Advanced Energy Vehicle)"
+                            description="Advanced Energy Vehicle project for Fundamentals of Engineering at Ohio State. Team of 4.  
+                            Created, designed and tested different parts to optimize speed for an advanced propeller based rail-rider.  
+                            Wrote all the code for the teams vehicle"
+                            link={aev}
                         />
                     </Col>
                 </Row>
