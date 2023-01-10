@@ -20,9 +20,9 @@ function Home() {
                 </video>
 
                 <div className="cover-container d-flex mx-auto flex-column overlay-content home-header">
-                    {/* <header className="mb-auto">
+                    <header className="mb-auto">
                         <h1></h1>
-                    </header> */}
+                    </header>
                     <main className="black_overlay px-3">
                         <div className="container">
                             <div className="row align-items-center">
