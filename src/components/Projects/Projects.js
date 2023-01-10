@@ -2,14 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import pong from "../../assets/images/projects/converge-pong.png";
-import portfolio_website from "../../assets/images/projects/website.png";
+// import portfolio_website from "../../assets/images/projects/website.png";
 import convergle from "../../assets/images/projects/wordle.png";
 import aev from "../../assets/images/projects/AEV.png";
-import capstone_image from "../../assets/images/projects/c3_image.png"
+import capstone_image from "../../assets/images/projects/c3_image.png";
+import social_river from "../../assets/images/projects/social_river.png";
 
-
-import capstone_documentation from "../../assets/docs/FINAL Design Report - Team 3.pdf"
-import capstone_video from "../../assets/videos/c3_demo.mp4"
+import capstone_documentation from "../../assets/docs/FINAL Design Report - Team 3.pdf";
+import capstone_video from "../../assets/videos/c3_demo.mp4";
 
 function Projects() {
     return (
@@ -21,7 +21,21 @@ function Projects() {
                 <p style={{ color: "white" }}>
                     Here are a few projects I've worked on recently.
                 </p>
-                <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                <Row
+                    style={{ justifyContent: "center", paddingBottom: "10px" }}
+                >
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={social_river}
+                            isBlog={false}
+                            title="SocialRiver Social Media Site"
+                            description="Ability for users to publish posts, pictures, with a user account follower and following system, private accounts
+                            Real Time Chatting Service (Redis In Memory Database, Django Channels)
+                            Made using Django, Vue, Nginx, and Docker.  Deployed live to AWS linux server (check it out at socialriver.dev) see link below
+                            "
+                            link="https://socialriver.dev"
+                        />
+                    </Col>
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={convergle}

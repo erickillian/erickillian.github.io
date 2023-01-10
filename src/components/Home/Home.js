@@ -1,6 +1,6 @@
 import React from "react";
 // import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../assets/images/me/profile_picture3.png";
+// import homeLogo from "../../assets/images/me/profile_picture3.png";
 import Home2 from "./Home2";
 import Type from "./Type";
 
@@ -20,15 +20,15 @@ function Home() {
                 </video>
 
                 <div className="cover-container d-flex mx-auto flex-column overlay-content home-header">
-                    <header className="mb-auto">
+                    {/* <header className="mb-auto">
                         <h1></h1>
-                    </header>
+                    </header> */}
                     <main className="black_overlay px-3">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col">
                                     <picture>
-                                        <img src={require('../../assets/images/me/profile_picture3.png')} className="home-image" />
+                                        <img src={require('../../assets/images/me/profile_picture3.png')} alt="Profile" className="home-image" />
                                     </picture>
                                 </div>
                                 <div className="col biography_brief">
