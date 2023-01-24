@@ -28,7 +28,7 @@ function Home() {
                             <div className="row align-items-center">
                                 <div className="col">
                                     <picture>
-                                        <img src={require('../../assets/images/me/profile_picture3.png')} alt="Profile" className="home-image" />
+                                        <img src={require('../../assets/images/me/me.png')} alt="Profile" className="home-image" style={{borderRadius: "400px", borderColor: "white", borderStyle: "solid", borderWidth: "10px"}} />
                                     </picture>
                                 </div>
                                 <div className="col biography_brief">
