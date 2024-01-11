@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.c3564292.css",
+    "main.js": "./static/js/main.8fcf4b24.js",
+    "static/js/787.bbe01249.chunk.js": "./static/js/787.bbe01249.chunk.js",
+    "static/media/c3_demo.mp4": "./static/media/c3_demo.8b7dda088b4614cb4fe0.mp4",
+    "static/media/animation.gif": "./static/media/animation.1a27c0cca10a54955075.gif",
+    "static/media/background7.mp4": "./static/media/background7.ff4c905f085cd9384f26.mp4",
+    "static/media/FINAL Design Report - Team 3.pdf": "./static/media/FINAL Design Report - Team 3.ef90db3d719f7cc775b6.pdf",
+    "static/media/me_rgba2.png": "./static/media/me_rgba2.4b059e9404b873e685cb.png",
+    "static/media/c3_image.png": "./static/media/c3_image.2be00cba3793b0b14bd9.png",
+    "static/media/AEV.png": "./static/media/AEV.31689d9a4470089b8175.png",
+    "static/media/wordle.png": "./static/media/wordle.4d7a7511630ab247732a.png",
+    "static/media/about.png": "./static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/converge-pong.png": "./static/media/converge-pong.2ca9686def0ab97aec39.png",
+    "index.html": "./index.html",
+    "static/media/pre2.svg": "./static/media/pre2.cdda6d6d193bf0ff6ff4.svg",
+    "main.c3564292.css.map": "./static/css/main.c3564292.css.map",
+    "main.8fcf4b24.js.map": "./static/js/main.8fcf4b24.js.map",
+    "787.bbe01249.chunk.js.map": "./static/js/787.bbe01249.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3564292.css",
+    "static/js/main.8fcf4b24.js"
+  ]
+}
