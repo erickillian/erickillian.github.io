@@ -6,7 +6,7 @@ import pong from "../../assets/images/projects/converge-pong.png";
 import convergle from "../../assets/images/projects/wordle.png";
 import aev from "../../assets/images/projects/AEV.png";
 import capstone_image from "../../assets/images/projects/c3_image.png";
-import social_river from "../../assets/images/projects/social_river.png";
+import tattoo_remover from "../../assets/images/projects/animation.gif";
 
 import capstone_documentation from "../../assets/docs/FINAL Design Report - Team 3.pdf";
 import capstone_video from "../../assets/videos/c3_demo.mp4";
@@ -26,14 +26,13 @@ function Projects() {
                 >
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={social_river}
+                            imgPath={tattoo_remover}
                             isBlog={false}
-                            title="SocialRiver Social Media Site"
-                            description="Ability for users to publish posts, pictures, with a user account follower and following system, private accounts
-                            Real Time Chatting Service (Redis In Memory Database, Django Channels)
-                            Made using Django, Vue, Nginx, and Docker.  Deployed live to AWS linux server (check it out at socialriver.dev) see link below
+                            title="Tattoo Remover"
+                            description="
+                                Tattoo removal program that uses U-Net to remove tattoos from individuals
                             "
-                            link="https://socialriver.dev"
+                            link="https://github.com/erickillian/tattoo-remover"
                         />
                     </Col>
                     <Col md={4} className="project-card">
