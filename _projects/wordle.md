@@ -13,6 +13,8 @@ my co-workers to have some fun in the morning. It features user logins and rando
 generates unique wordles for each user each day. It also contains a leaderboards, a
 wall of shame, and daily trophies.
 
+Checkout my github repo [here](https://github.com/erickillian/wordle-app)
+
 {% include figure.liquid loading="eager" path="assets/img/projects/wordle_screenshot1.png" title="wordle_screenshot1" class="img-fluid rounded z-depth-1" %}
 Homescreen with the player leaderboards
 
