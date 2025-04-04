@@ -197,11 +197,11 @@ exclude:
   - _pages/blog.md
   - _posts/
   - _books/
-  - _projects/?_project.md
   - assets/jupyter/blog.ipynb
   - _pages/profiles.md
   - _pages/books.md
-  - _pages/projects.md
+  - _projects/?_project.md
+  # - _pages/projects.md
   - _pages/publications.md
   - _pages/teaching.md
   - _pages/cv.md
