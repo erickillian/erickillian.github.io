@@ -9,14 +9,41 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-repositories",
+  },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of the projects I&#39;ve worked on",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-repositories",
           title: "repositories",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{
+        },{id: "projects-aev",
+          title: 'AEV',
+          description: "Advanced Energy Vehicle",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/aev/";
+            },},{id: "projects-c3",
+          title: 'C3',
+          description: "Clever Cleaning Container",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/c3/";
+            },},{id: "projects-tattoo-remover",
+          title: 'Tattoo Remover',
+          description: "Machine learning image to image model that removes tattoos",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tattoo/";
+            },},{id: "projects-wordle",
+          title: 'Wordle',
+          description: "Competitive daily wordle web app",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/wordle/";
+            },},{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
