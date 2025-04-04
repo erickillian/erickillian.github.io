@@ -12,16 +12,16 @@ While taking classes in Machine Learning in school, I was looking for a fun side
 project model to work on in parallel to learning in my classes.
 
 I ended up finding the project [SkinDeep](https://github.com/vijishmadhavan/SkinDeep)
-an open souce project on github that attempted to remove tattoos from people.  
+an open souce project on github that attempted to remove tattoos from people.
 
-After using the model I instantly noticed some limitations and started tinkering by creating models 
+After using the model I instantly noticed some limitations and started tinkering by creating models
 and datasets of my own to see If I could do better.
 
 This lead me down a path of creative techniques in synthetic dataset generation and
 various unet architectures and learning more in-depth frameworks like pytorch, tensorflow, and
 jax.
 
-To showcase some progress I created a github repo with some code to run a model I trained with 
+To showcase some progress I created a github repo with some code to run a model I trained with
 the model weights published on huggingface. [Checkout my Github repo here](https://github.com/erickillian/tattoo-remover)
 
 Here is a GIF of some results I achieved blended together so you can see the before and after results:

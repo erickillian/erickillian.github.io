@@ -8,8 +8,8 @@ category: fun
 related_publications: false
 ---
 
-This is a project I worked on to create a fun competitive wordle app for some of 
-my co-workers to have some fun in the morning. It features user logins and randomly 
+This is a project I worked on to create a fun competitive wordle app for some of
+my co-workers to have some fun in the morning. It features user logins and randomly
 generates unique wordles for each user each day. It also contains a leaderboards, a
 wall of shame, and daily trophies.
 
