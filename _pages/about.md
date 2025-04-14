@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm Eric Killian! I'm an embedded software engineer working on new developments space robotics.
+Hi, I'm Eric Killian! I'm an embedded software engineer working on new developments in space robotics.
 
 I have a deep passion for machine learning and robotic systems, fields that fascinate me for their potential to solve complex problems through innovative approaches. Beyond the technical details, I am driven by the opportunity to explore how these technologies can make a tangible difference in everyday life.
 
