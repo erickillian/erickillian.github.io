@@ -2,7 +2,7 @@
 layout: page
 title: Tattoo Remover
 description: Machine learning image to image model that removes tattoos
-img: assets/img/projects/tattoo_removal.gif
+img: assets/img/projects/tattoo_remover.png
 importance: 1
 category: fun
 related_publications: false
@@ -24,9 +24,15 @@ jax.
 To showcase some progress I created a github repo with some code to run a model I trained with
 the model weights published on huggingface. [Checkout my Github repo here](https://github.com/erickillian/tattoo-remover)
 
-Here is a GIF of some results I achieved blended together so you can see the before and after results:
+Here are some example results I have from my latest model that has improved upon the process:
 
-{% include figure.liquid loading="eager" path="assets/img/projects/tattoo_removal.gif" title="tattoo_results" class="img-fluid rounded z-depth-1" %}
+{% assign image_list = "1.jpg,2.jpg,3.jpg,4.jpg,5.jpg,6.jpg,7.jpg" | split: "," %}
+
+<div style="display: flex; flex-wrap: wrap; gap: 1em;">
+  {% for image in image_list %}
+    <img src="/assets/img/projects/tattoo_remover_examples/{{ image }}" alt="Tattoo remover example {{ forloop.index }}" class="img-fluid rounded z-depth-1" style="max-width: 100%; height: auto; flex: 1 1 300px; margin-bottom: 1em;">
+  {% endfor %}
+</div>
 
 Also note that all of the images above were not part of the training set that was used.
 
